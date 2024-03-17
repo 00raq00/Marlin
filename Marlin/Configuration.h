@@ -1441,7 +1441,7 @@
 /**
  * The BLTouch probe uses a Hall effect sensor and emulates a servo.
  */
-#define BLTOUCH //----DISABLE IF NOT BL
+//#define BLTOUCH //----DISABLE IF NOT BL
 
 /**
  * MagLev V4 probe by MDD
@@ -2076,9 +2076,9 @@
  */
 //#define AUTO_BED_LEVELING_3POINT
 //#define AUTO_BED_LEVELING_LINEAR
-#define AUTO_BED_LEVELING_BILINEAR //----DISABLE IF NOT BL
+//#define AUTO_BED_LEVELING_BILINEAR //----DISABLE IF NOT BL
 //#define AUTO_BED_LEVELING_UBL
-//#define MESH_BED_LEVELING   //3DPG ENABLE IF NOT BL
+#define MESH_BED_LEVELING   //3DPG ENABLE IF NOT BL
 
 /**
  * Commands to execute at the end of G29 probing.
