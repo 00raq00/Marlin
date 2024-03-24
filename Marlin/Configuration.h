@@ -1307,7 +1307,7 @@
  *   M204 I    Angular Acceleration
  *   M204 J    Angular Travel Acceleration
  */
-#define DEFAULT_ACCELERATION          800    // X, Y, Z and E acceleration for printing moves   //3DPG
+#define DEFAULT_ACCELERATION          500    // X, Y, Z and E acceleration for printing moves   //3DPG
 #define DEFAULT_RETRACT_ACCELERATION  3000    // E acceleration for retracts
 #define DEFAULT_TRAVEL_ACCELERATION   2000    // X, Y, Z acceleration for travel (non printing) moves
 #if ENABLED(AXIS4_ROTATES)
@@ -1365,7 +1365,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-//#define S_CURVE_ACCELERATION    //3DPG Testing with and without it
+#define S_CURVE_ACCELERATION    //3DPG Testing with and without it
 
 //===========================================================================
 //============================= Z Probe Options =============================
